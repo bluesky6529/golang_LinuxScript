@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/bluesky6529/go_tour/cmd"
+	"github.com/bluesky6529/golang_LinuxScript/cmd"
 )
 
 func main() {
