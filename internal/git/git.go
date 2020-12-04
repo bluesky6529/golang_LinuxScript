@@ -5,8 +5,8 @@ import (
 	"os/exec"
 )
 
-func LsFunction() error { //func func_name receive return
-	cmd := exec.Command("ls", "-alh")
+func LsFunction(path string) error { //func func_name receive return
+	cmd := exec.Command("ls", "-alh", path)
 	cmd.Stdout = os.Stdout
 	return cmd.Run()
 
